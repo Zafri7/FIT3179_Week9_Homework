@@ -1,4 +1,4 @@
-Country,Year,Total_cases,Confirmed,WHO Region,Population
+Country,Year,Total_cases,Deaths,Region,Population
 Afghanistan,2017,161778.0,10.0,Eastern Mediterranean,38928341.0
 Algeria,2017,0.0,0.0,Africa,43851043.0
 Angola,2017,3874892.0,13967.0,Africa,32866268.0
@@ -110,7 +110,7 @@ Fiji,0,0,0,0,1
 Tanzania,0,0,0,0,1
 W. Sahara,0,0,0,0,1
 Canada,0,50000,0,0,340418775
-United States of America,0,1000000,0,0,340418775
+United States of America,2017,1000000,0,0,340418775
 Chile,0,0,0,0,1
 Dem. Rep. Congo,0,0,0,0,1
 Dominican Rep.,0,0,0,0,1
@@ -174,7 +174,7 @@ Australia,0,10000,0,0,26499450
 Taiwan,0,0,0,0,1
 Italy,0,0,0,0,1
 Denmark,0,0,0,0,1
-United Kingdom,0,100000,0,0,67,789,028
+United Kingdom,0,100000,0,0,67789028
 Iceland,0,0,0,0,1
 Brunei,0,0,0,0,1
 Slovenia,0,0,0,0,1

@@ -134,7 +134,7 @@
           "color": {"value": "black"},
           "opacity": {
             "condition": {
-              "test": "datum['Country'] == 'China' || datum['Country'] == 'Singapore' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand' || datum['Country'] == 'Italy' || datum['Country'] == 'Yemen' ||  datum['Country'] == 'United States'",
+              "test": "datum['Country'] == 'China' || datum['Country'] == 'Nigeria' || datum['Country'] == 'Australia' || datum['Country'] == 'New Zealand' || datum['Country'] == 'Italy' || datum['Country'] == 'Yemen' ||  datum['Country'] == 'United States'",
               "value": 1
             },
             "value": 0

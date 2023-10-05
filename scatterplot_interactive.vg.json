@@ -110,7 +110,7 @@
           "opacity": {"value": 0.6},
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Total_cases", "type": "quantitative", "format": ","},
+            {"field": "Total Cases", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
             {
               "field": "Cases per 10,000 Population",
@@ -141,7 +141,7 @@
           },
           "tooltip": [
             {"field": "Country", "type": "nominal"},
-            {"field": "Total_cases", "type": "quantitative", "format": ","},
+            {"field": "Total Cases", "type": "quantitative", "format": ","},
             {"field": "Deaths", "type": "quantitative", "format": ","},
             {
               "field": "Cases per 10,000 Population",

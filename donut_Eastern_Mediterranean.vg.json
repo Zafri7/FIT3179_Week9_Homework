@@ -4,7 +4,6 @@
   "width": 200,
   "height": 200,
   "autosize": "none",
-  
   "signals": [
     {"name": "startAngle", "value": 0},
     {"name": "endAngle", "value": 6.29},
@@ -13,7 +12,6 @@
     {"name": "cornerRadius", "value": 5.5},
     {"name": "sort", "value": false}
   ],
-  
   "data": [
     {
       "name": "table",
@@ -43,7 +41,6 @@
       ]
     }
   ],
-  
   "scales": [
     {
       "name": "color",
@@ -52,7 +49,21 @@
       "range": ["#F1C40F","#90927d"]
     }
   ],
-  
+  "legends": [
+    {
+      "fill": "color",
+      "title": "Development Status",
+      "orient": "right",
+      "encode": {
+        "labels": {
+          "interactive": true,
+          "enter": {
+            "fontSize": {"value": 14}
+          }
+        }
+      }
+    }
+  ],
   "marks": [
     {
       "type": "arc",

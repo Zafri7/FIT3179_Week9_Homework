@@ -3,7 +3,7 @@ body {
 	font-family: Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	max-width: 1500px; /* Set a maximum width for the entire content */
+	max-width: 1000px; /* Set a maximum width for the entire content */
 	margin: 0 auto; /* Center the content horizontally */
   }
   
@@ -100,4 +100,25 @@ body {
   .card-content {
 	display: flex;
 	justify-content: space-between;
+  }
+
+  .legend {
+	display: flex;
+	margin-top: 10px;
+  }
+  
+  .legend-item {
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+  }
+  
+  .legend-square {
+	width: 20px;
+	height: 20px;
+	margin-right: 8px;
+  }
+  
+  .legend-text {
+	font-size: 14px;
   }

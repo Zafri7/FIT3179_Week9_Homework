@@ -101,7 +101,7 @@
           "fontSize": {"value": 15},
           "align": {"value": "center"},
           "baseline": {"value": "middle"},
-          "fill": {"value": "#76D7C4"}  
+          "fill": {"value": "#5BEEB0 "}  
         }
       }
     }

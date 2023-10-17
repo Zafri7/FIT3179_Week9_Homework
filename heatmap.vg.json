@@ -633,7 +633,7 @@
                         "titleFont": "Roboto",
                         "titleFontSize": 15,
                         "title": "Region",
-                        "orient": "bottom",
+                        "orient": "top-right",
                         "offset": 38
                     },
                     "scale": {

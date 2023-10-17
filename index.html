@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Global Data Analysis</title>
+  <title>Your Page Title</title>
   <!-- Import Vega & Vega-Lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
@@ -12,79 +12,91 @@
 </head>
 <body>
 
-  <!-- Introduction -->
+  <!-- Introduction Section -->
   <section class="story-section">
     <div class="card">
       <h1>Introduction</h1>
       <div class="card-content">
         <div class="card-text">
-          <p><!-- Your introduction textH here --></p>
+          <p><!-- Your introduction text goes here --></p>
         </div>
       </div>
     </div>
   </section>
-
-  <!-- Visualization 1 -->
-  <section class="story-section">
-    <div class="card">
-      <h2>Choropleth: GDP by Country</h2>
-      <div class="card-content">
+<!-- Visualization 1 Section -->
+<section class="story-section">
+  <div class="card">
+    <h2>Choropleth: GDP by Country</h2>
+    <div class="card-content">
+      <div class="visualization-container"> <!-- Added this line -->
         <div id="vis1"></div>
-        <div class="card-text">
-          <p><!-- Brief description or context for Visualization 1 --></p>
-        </div>
+      </div> <!-- Closing tag for visualization-container -->
+      <div class="card-text">
+        <p>JJBHIBOLKNLJBHI<!-- Brief description or context for Visualization 1 goes here --></p>
       </div>
     </div>
-  </section>
-
-  <!-- Visualization 2 -->
-  <section class="story-section">
-    <div class="card">
-      <h2>Interactive Scatterplot</h2>
-      <div class="card-content">
+  </div>
+</section>
+  <!-- Visualization 2 Section -->
+<section class="story-section">
+  <div class="card">
+    <h2>Interactive Scatterplot</h2>
+    <div class="card-content">
+      <div class="visualization-container">
         <div id="vis2"></div>
-        <div class="card-text">
-          <p><!-- Brief description or context for Visualization 2 --></p>
-        </div>
+      </div>
+      <div class="card-text">
+        <p>HAHAHAHUHUHUHUHUHUHUHUHUHUHUHUHKJNGVYCFUTUGVBHUIJNBHOUGVYFTGVYHBUIJ<!-- Brief description or context for Visualization 2 goes here --></p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="story-section">
-    <div class="card">
-      <h2>Donut Charts: Developed vs Developing Countries in a Region</h2>
-      <div class="card-content">
-        <div class="legend">
-          <span style="display: inline-block; background-color: #F1C40F; width:15px; height:15px;"></span> Developed Country
-          <span style="display: inline-block; background-color: #90927d; width:15px; height:15px;"></span> Developing Country
-        </div>
-        <table>
-          <tr>
-            <td><div id="vis6"><h3>Europe</h3></div></td>
-            <td><div id="vis4"><h3>Americas</h3></div></td>
-            <td><div id="vis8"><h3>Western Pacific</h3></div></td>
-          </tr>
-          <tr>
-            <td><div id="vis3"><h3>Africa</h3></div></td>
-            <td><div id="vis7"><h3>South East Asia</h3></div></td>
-            <td><div id="vis5"><h3>Eastern Mediterranean</h3></div></td>
-          </tr>
-        </table>
-        <div class="card-text">
-          <p><!-- Brief description or context for the Donut Charts --></p>
-        </div>
-      </div>
+  <!-- Donut Charts Section -->
+<section class="story-section">
+  <div class="card">
+    <h2>Donut Charts: Developed vs Developing Countries in a Region</h2>
+    <div class="card-content">
+      <table>
+        <tr>
+          <td>
+            <div class="visualization-container">
+              <!-- Existing Donut Charts -->
+              <div class="donut-chart" id="vis3">
+                <h3>Africa</h3>
+              </div>
+              <div class="donut-chart" id="vis4">
+                <h3>Americas</h3>
+              </div>
+              <div class="donut-chart" id="vis5">
+                <h3>Eastern Mediterranean</h3>
+              </div>
+              
+              <!-- New Donut Charts -->
+              <div class="donut-chart" id="vis6">
+                <h3>Europe</h3>
+              </div>
+              <div class="donut-chart" id="vis7">
+                <h3>South-East Asia</h3>
+              </div>
+              <div class="donut-chart" id="vis8">
+                <h3>Western Pacific</h3>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div class="card-text">
+              <p>HAHAhaNJKBHJVGHBJ<!-- Brief description or context for the Donut Charts goes here --></p>
+            </div>
+          </td>
+        </tr>
+      </table>
     </div>
-  </section>
-  This should place the Donut Charts in a table within a card as per your original design. Please include this segment back into your full HTML file, and it should work as expected.
-  
-  
-  
-  
-  
-  
+  </div>
+</section>
 
-  <!-- Additional Visualizations -->
+
+  <!-- Additional Visualizations Section -->
   <section class="story-section">
     <div class="card">
       <h2>Additional Metrics</h2>
@@ -92,7 +104,7 @@
         <div id="vis9"></div>
         <div id="vis10"></div>
         <div class="card-text">
-          <p><!-- Brief description or context for the additional visualizations --></p>
+          <p><!-- Brief description or context for the additional visualizations goes here --></p>
         </div>
       </div>
     </div>
@@ -100,6 +112,7 @@
 
   <!-- JavaScript for Vega Embed -->
   <script type="text/javascript">
+    // Specify your visualization spec URLs and embed them here
     var specVis1 = "choropleth_gdp.vg.json";
     var specVis2 = "scatterplot_interactive.vg.json";
     var specVis3 = "donut_Africa.vg.json";
@@ -111,6 +124,7 @@
     var specVis9 = "heatmap.vg.json";
     var specVis10 = "pieChart.vg.json";
 
+    // Embed your visualizations
     vegaEmbed('#vis1', specVis1, { "actions": false });
     vegaEmbed('#vis2', specVis2, { "actions": false });
     vegaEmbed('#vis3', specVis3, { "actions": false });

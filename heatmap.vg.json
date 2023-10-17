@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Waffle chart showing GDP per capita by region",
     "width": 300,
-    "height": 300,
+    "height": 315,
     "data": {
         "values": [
             {
@@ -627,34 +627,27 @@
                 "color": {
                     "field": "Region",
                     "type": "nominal",
-                    "legend": {
-                        "labelFont": "Roboto",
-                        "labelFontSize": 15,
-                        "titleFont": "Roboto",
-                        "titleFontSize": 15,
-                        "title": "Region",
-                        "orient": "top-right",
-                        "offset": 38
-                    },
+                    "legend":null,
                     "scale": {
-                        "domain": [
-                            "Eastern Mediterranean",
-                            "Africa",
-                            "Americas",
-                            "Europe",
-                            "South-East Asia",
-                            "Western Pacific"
-                        ],
-                        "range": [
-                            "#76D7C4",
-                            "#984ea3",
-                            "#ff7f00",
-                            "#F08080",
-                            "#377eb8",
-                            "#a65628"
-                        ]
+                      "domain": [
+                        "Eastern Mediterranean",
+                        "Africa",
+                        "Americas",
+                        "Europe",
+                        "South-East Asia",
+                        "Western Pacific"
+                      ],
+                      "range": [
+                        "#76D7C4",
+                        "#984ea3",
+                        "#ff7f00",
+                        "#F08080",
+                        "#377eb8",
+                        "#a65628"
+                      ]
                     }
-                },
+                  }
+                  ,
                 "tooltip": [
                     {
                         "field": "Region"

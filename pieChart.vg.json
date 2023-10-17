@@ -63,7 +63,7 @@
         "titleFont": "Roboto",
         "titleFontSize": 13,
         "title": "Region",
-        "orient": "bottom"
+        "orient": "left"
       }
     }
   },

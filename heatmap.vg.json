@@ -627,27 +627,26 @@
                 "color": {
                     "field": "Region",
                     "type": "nominal",
-                    "legend":null,
+                    "legend": null,
                     "scale": {
-                      "domain": [
-                        "Eastern Mediterranean",
-                        "Africa",
-                        "Americas",
-                        "Europe",
-                        "South-East Asia",
-                        "Western Pacific"
-                      ],
-                      "range": [
-                        "#76D7C4",
-                        "#984ea3",
-                        "#ff7f00",
-                        "#F08080",
-                        "#377eb8",
-                        "#a65628"
-                      ]
+                        "domain": [
+                            "Eastern Mediterranean",
+                            "Africa",
+                            "Americas",
+                            "Europe",
+                            "South-East Asia",
+                            "Western Pacific"
+                        ],
+                        "range": [
+                            "#76D7C4",
+                            "#984ea3",
+                            "#ff7f00",
+                            "#F08080",
+                            "#377eb8",
+                            "#a65628"
+                        ]
                     }
-                  }
-                  ,
+                },
                 "tooltip": [
                     {
                         "field": "Region"
@@ -663,7 +662,168 @@
                 "anchor": "middle",
                 "offset": 10
             }
-            
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'Europe' && datum.row === 6 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "426758k"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'Africa' && datum.row === 1 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "35733k"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'Americas' && datum.row === 3 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "767548"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'South-East Asia' && datum.row === 9 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "767548k"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'Western Pacific' && datum.row === 10 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "890636k"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
+        },
+        {
+            "mark": "text",
+            "transform": [
+                {
+                    "filter": "datum.Region === 'Eastern Mediterennean' && datum.row === 4 && datum.column === 3"
+                }
+            ],
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative"
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative"
+                },
+                "text": {
+                    "value": "270847k"
+                },
+                "size": {
+                    "value": 12.5
+                },
+                "color": {
+                    "value": "gray"
+                }
+            }
         }
     ],
     "config": {

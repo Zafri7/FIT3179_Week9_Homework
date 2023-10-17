@@ -1,6 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "GDP per Capita by Country 2022",
+  "title": {
+    "text": "GDP per Capita by Country 2022",
+    "font": "Futura",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "anchor": "middle",
+      "offset": 10
+  },
   "width": 800,
   "height": 400,
   "padding": {"left": 10},

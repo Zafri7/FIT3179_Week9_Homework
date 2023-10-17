@@ -2,7 +2,14 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 750,
   "height": 300,
-  "title": "Life Expectancy and GDP Per Capita by Country in 2022",
+  "title": {
+    "text": "Life Expectancy and GDP Per Capita by Country in 2022",
+    "font": "Futura",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "anchor": "middle",
+      "offset": 10
+  },
   "data": {
     "url": "Final_Merged_GDP_Per_Capita_Country_Region_Life_Expectancy.csv"
   },

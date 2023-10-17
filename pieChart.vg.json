@@ -67,11 +67,16 @@
       }
     }
   },
+ 
   "title": {
     "text": "Mean Years of Schooling by Region",
-    "font": "Roboto",
-    "fontSize": 15
+    "font": "Futura",
+      "fontSize": 16,
+      "fontWeight": "bold",
+      "anchor": "middle",
+      "offset": 10
   },
+  
   "config": {
     "style": {
       "cell": {

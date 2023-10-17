@@ -27,15 +27,25 @@ body {
 	align-items: center;
   }
   
-  .card-text p {
+  /* .card-text p {
 	background-color: white;
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 	margin-top: 10px;
   }
-  
+   */
   .card-text p {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+	margin-top: 10px;
+	width: auto; /* Set to any width you want */
+	white-space: normal; /* Allows the text to wrap */
+	word-wrap: break-word; /* Breaks the word and wraps onto the next line */
+  }
+  .card-text-donut p {
 	background-color: white;
 	padding: 10px;
 	border-radius: 10px;

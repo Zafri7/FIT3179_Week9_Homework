@@ -1,0 +1,98 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Donut Chart of Development Status in Eastern Mediterranean",
+  "width": 300,
+  "height": 300,
+  "autosize": "none",
+  
+  "signals": [
+    {"name": "startAngle", "value": 0},
+    {"name": "endAngle", "value": 6.29},
+    {"name": "padAngle", "value": 0.04},
+    {"name": "innerRadius", "value": 120},
+    {"name": "cornerRadius", "value": 5.5},
+    {"name": "sort", "value": false}
+  ],
+  
+  "data": [
+    {
+      "name": "table",
+      "values": [
+        {"Region": "Developed", "Total_cases": 5},
+        {"Region": "Developing", "Total_cases": 21}
+      ],
+      "transform": [
+        {
+          "type": "pie",
+          "field": "Total_cases",
+          "startAngle": {"signal": "startAngle"},
+          "endAngle": {"signal": "endAngle"},
+          "sort": {"signal": "sort"}
+        }
+      ]
+    }
+  ],
+  
+  "scales": [
+    {
+      "name": "color",
+      "type": "ordinal",
+      "domain": {"data": "table", "field": "Region"},
+      "range": ["#F1C40F","#90927d"]
+    }
+  ],
+  
+  "marks": [
+    {
+      "type": "arc",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "fill": {"scale": "color", "field": "Region"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"}
+        },
+        "update": {
+          "startAngle": {"field": "startAngle"},
+          "endAngle": {"field": "endAngle"},
+          "padAngle": {"signal": "padAngle"},
+          "innerRadius": {"signal": "innerRadius"},
+          "outerRadius": {"signal": "width / 2"},
+          "cornerRadius": {"signal": "cornerRadius"}
+        }
+      }
+    },
+    {
+      "name": "mark_id",
+      "type": "text",
+      "from": {"data": "table"},
+      "encode": {
+        "enter": {
+          "text": {"signal": "if(datum['endAngle'] - datum['startAngle'] < 0.3, '', datum['Total_cases'])"},
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"},
+          "radius": {"signal": "width / 2 * 0.65"},
+          "theta": {"signal": "(datum['startAngle'] + datum['endAngle']) / 2"},
+          "fill": {"value": "black"},
+          "fontSize": {"value": 15},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"}
+        }
+      }
+    },
+    {
+      "type": "text",
+      "encode": {
+        "enter": {
+          "x": {"signal": "width / 2"},
+          "y": {"signal": "height / 2"},
+          "text": {"value": "Eastern Mediterranean"},
+          "fontSize": {"value": 22},
+          "align": {"value": "center"},
+          "baseline": {"value": "middle"},
+          "fill": {"value": "#76D7C4"}  
+        }
+      }
+    }
+  ]
+}

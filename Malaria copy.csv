@@ -1,0 +1,197 @@
+Country,Year,Total_cases,Deaths,Region,Population
+Afghanistan,2017,161778.0,10.0,Eastern Mediterranean,38928341.0
+Algeria,2017,0.0,0.0,Africa,43851043.0
+Angola,2017,3874892.0,13967.0,Africa,32866268.0
+Argentina,2017,1000000.0,1.0,Americas,45195777.0
+Armenia,2017,0.0,,Europe,2963234.0
+Azerbaijan,2017,0.0,,Europe,10139175.0
+Bangladesh,2017,4893.0,13.0,South-East Asia,164689383.0
+Belize,2017,7.0,0.0,Americas,397621.0
+Benin,2017,1573163.0,2182.0,Africa,12123198.0
+Bhutan,2017,24.0,1.0,South-East Asia,771612.0
+Bolivia (Plurinational State of),2017,4572.0,0.0,Americas,11673029
+Botswana,2017,1900.0,17.0,Africa,2351625.0
+Brazil,2017,189503.0,30.0,Americas,212559409.0
+Burkina Faso,2017,10225459.0,4144.0,Africa,20903278.0
+Burundi,2017,7670177.0,4414.0,Africa,11890781.0
+Cabo Verde,2017,423.0,2.0,Africa,548800.0
+Cambodia,2017,36932.0,1.0,Western Pacific,16718971.0
+Cameroon,2017,1191257.0,3195.0,Africa,26545864.0
+Central African Republic,2017,383309.0,3689.0,Africa,4829764.0
+Chad,2017,1962372.0,2088.0,Africa,16425859.0
+China,2017,10000000.0,7.0,Western Pacific,1439323774.0
+Colombia,2017,52805.0,19.0,Americas,50882884.0
+Comoros,2017,2274.0,3.0,Africa,869595.0
+Congo,2017,127939.0,229.0,Americas,5518092
+Costa Rica,2017,12.0,0.0,Americas,5094114.0
+Côte d'Ivoire,2017,3274683.0,3222.0,Africa,25070000
+South Korea,2017,4575.0,0.0,Western Pacific,51640000
+Democratic Republic of the Congo,2017,15176927.0,27458.0,Africa,51640000
+Djibouti,2017,14671.0,,Eastern Mediterranean,988002.0
+Dominican Republic,2017,341.0,1.0,Americas,10847904.0
+Ecuador,2017,1275.0,1.0,Americas,17643060.0
+Egypt,2017,0.0,,Eastern Mediterranean,102334403.0
+El Salvador,2017,0.0,0.0,Americas,6486201.0
+Equatorial Guinea,2017,15725.0,,Africa,1402985.0
+Eritrea,2017,31486.0,8.0,Africa,3546427.0
+Eswatini,2017,724.0,20.0,Africa,1160164.0
+Ethiopia,2017,1530739.0,356.0,Africa,114963583.0
+Gabon,2017,35244.0,218.0,Africa,2225728.0
+Gambia,2017,69931.0,54.0,Africa,2416664.0
+Georgia,2017,0.0,,Europe,3989175.0
+Ghana,2017,4348694.0,599.0,Africa,31072945.0
+Guatemala,2017,3743.0,0.0,Americas,17915567.0
+Guinea,2017,1335323.0,1174.0,Africa,13132792.0
+Guinea-Bissau,2017,89784.0,296.0,Africa,1874000.0
+Guyana,2017,13936.0,11.0,Americas,786559.0
+Haiti,2017,19135.0,12.0,Americas,11402533.0
+Honduras,2017,1277.0,1.0,Americas,9904608.0
+India,2017,844558.0,194.0,South-East Asia,1380004385.0
+Indonesia,2017,261617.0,47.0,South-East Asia,273523621.0
+Iran (Islamic Republic of),2017,57.0,1.0,Eastern Mediterranean,40222503
+Iraq,2017,0.0,,Eastern Mediterranean,40222503.0
+Kazakhstan,2017,0.0,,Europe,18776707.0
+Kenya,2017,3215116.0,,Africa,53771300.0
+Kyrgyzstan,2017,0.0,,Europe,6524191.0
+Lao People's Democratic Republic,2017,9333.0,2.0,Western Pacific,7275556
+Liberia,2017,,758.0,Africa,5057677.0
+Madagascar,2017,800661.0,370.0,Africa,27691019.0
+Malawi,2017,4901344.0,3613.0,Africa,19129955.0
+Malaysia,2017,85.0,12.0,Western Pacific,32365998.0
+Mali,2017,1918376.0,1050.0,Africa,20250834.0
+Mauritania,2017,20105.0,67.0,Africa,4649660.0
+Mauritius,2017,0.0,,Africa,1271767.0
+Mexico,2017,736.0,0.0,Americas,128932753.0
+Morocco,2017,0.0,,Eastern Mediterranean,36910558.0
+Mozambique,2017,8921081.0,1114.0,Africa,31255435.0
+Myanmar,2017,19619.0,30.0,South-East Asia,25406.0
+Namibia,2017,54268.0,104.0,Africa,2540916.0
+Nepal,2017,623.0,3.0,South-East Asia,29136808.0
+Nicaragua,2017,10949.0,,Americas,6624554.0
+Niger,2017,2638580.0,2316.0,Africa,24206636.0
+Nigeria,2017,11571958.0,1000,Africa,206139587.0
+Oman,2017,0.0,,Eastern Mediterranean,5106622.0
+Pakistan,2017,350467.0,113.0,Eastern Mediterranean,220892331.0
+Panama,2017,649.0,0.0,Americas,4314768.0
+Papua New Guinea,2017,478340.0,273.0,Western Pacific,8947027.0
+Paraguay,2017,0.0,0.0,Americas,7132530.0
+Peru,2017,55367.0,10.0,Americas,32971846.0
+Philippines,2017,3950.0,4.0,Western Pacific,109581085.0
+North Korea,2017,436.0,3.0,Western Pacific,25970000.0
+Rwanda,2017,1876123.0,376.0,Africa,12952209.0
+Sao Tome and Principe,2017,2239.0,1.0,Africa,219161.0
+Saudi Arabia,2017,177.0,0.0,Eastern Mediterranean,34813867.0
+Senegal,2017,395706.0,284.0,Africa,16743930.0
+Sierra Leone,2017,1651236.0,1298.0,Africa,7976985.0
+Solomon Islands,2017,52463.0,27.0,Western Pacific,707851.0
+Somalia,2017,35138.0,20.0,Eastern Mediterranean,15893219.0
+South Africa,2017,22061.0,301.0,Africa,59308690.0
+South Sudan,2017,1488005.0,3483.0,Africa,11193729.0
+Sri Lanka,2017,0.0,0.0,South-East Asia,21413250.0
+Sudan,2017,720879.0,1446.0,Eastern Mediterranean,43849269.0
+Suriname,2017,40.0,1.0,Americas,586634.0
+Tajikistan,2017,0.0,,Europe,9537642.0
+Thailand,2017,11440.0,11.0,South-East Asia,69799978.0
+Timor-Leste,2017,16.0,0.0,South-East Asia,1268000.0
+Togo,2017,1209034.0,995.0,Africa,8278737.0
+Turkey,2017,0.0,,Europe,84339067.0
+Uganda,2017,11667831.0,5111.0,Africa,45741000.0
+United Arab Emirates,2017,0.0,,Eastern Mediterranean,9890400.0
+United Republic of Tanzania,2017,5354486.0,3685.0,Africa,56320000
+Uzbekistan,2017,0.0,,Europe,33469199.0
+Vanuatu,2017,1071.0,0.0,Western Pacific,33469199
+Venezuela (Bolivarian Republic of),2017,411586.0,,Americas,28435943
+Viet Nam,2017,4548.0,6.0,Western Pacific,97338583
+Yemen,2017,114004.0,37.0,Eastern Mediterranean,29825968.0
+Zambia,2017,5505639.0,1425.0,Africa,18383956.0
+Zimbabwe,2017,315624.0,527.0,Africa,14862927.0
+Country Name,Col2,Col3,Col4,Col5,Col6
+Fiji,0,0,0,0,1
+Tanzania,0,0,0,0,1
+W. Sahara,0,0,0,0,1
+Canada,0,50000,0,0,340418775
+United States of America,2017,1000000,0,0,340418775
+Chile,0,0,0,0,1
+Dem. Rep. Congo,0,0,0,0,1
+Dominican Rep.,0,0,0,0,1
+Russia,0,100000,0,0,144332029 
+Bahamas,0,0,0,0,1
+Falkland Is.,0,0,0,0,1
+Norway,0,0,0,0,1
+Greenland,0,0,0,0,1
+Fr. S. Antarctic Lands,0,0,0,0,1
+Lesotho,0,0,0,0,1
+Uruguay,0,0,0,0,1
+Bolivia,0,0,0,0,1
+Venezuela,0,0,0,0,1
+France,0,0,0,0,1
+Puerto Rico,0,0,0,0,1
+Jamaica,0,0,0,0,1
+Cuba,0,0,0,0,1
+Central African Rep.,0,0,0,0,1
+Eq. Guinea,0,0,0,0,1
+eSwatini,0,0,0,0,1
+Israel,0,0,0,0,1
+Lebanon,0,0,0,0,1
+Palestine,0,0,0,0,1
+Tunisia,0,0,0,0,1
+Jordan,0,0,0,0,1
+Qatar,0,0,0,0,1
+Kuwait,0,0,0,0,1
+Laos,0,0,0,0,1
+Vietnam,0,0,0,0,1
+Mongolia,0,0,0,0,1
+Turkmenistan,0,0,0,0,1
+Iran,0,0,0,0,1
+Syria,0,0,0,0,1
+Sweden,0,0,0,0,1
+Belarus,0,0,0,0,1
+Ukraine,0,0,0,0,1
+Poland,0,0,0,0,1
+Austria,0,0,0,0,1
+Hungary,0,0,0,0,1
+Moldova,0,0,0,0,1
+Romania,0,0,0,0,1
+Lithuania,0,0,0,0,1
+Latvia,0,0,0,0,1
+Estonia,0,0,0,0,1
+Germany,0,0,0,0,1
+Bulgaria,0,0,0,0,1
+Greece,0,0,0,0,1
+Albania,0,0,0,0,1
+Croatia,0,0,0,0,1
+Switzerland,0,0,0,0,1
+Luxembourg,0,0,0,0,1
+Belgium,0,0,0,0,1
+Netherlands,0,0,0,0,1
+Portugal,0,0,0,0,1
+Spain,0,0,0,0,1
+Ireland,0,0,0,0,1
+New Caledonia,0,0,0,0,1
+Solomon Is.,0,0,0,0,1
+New Zealand,0,0,0,0,1
+Australia,0,10000,0,0,26499450
+Taiwan,0,0,0,0,1
+Italy,0,0,0,0,1
+Denmark,0,0,0,0,1
+United Kingdom,0,100000,0,0,67789028
+Iceland,0,0,0,0,1
+Brunei,0,0,0,0,1
+Slovenia,0,0,0,0,1
+Finland,0,0,0,0,1
+Slovakia,0,0,0,0,1
+Czechia,0,0,0,0,1
+Japan,0,0,0,0,1
+Antarctica,0,0,0,0,1
+N. Cyprus,0,0,0,0,1
+Cyprus,0,0,0,0,1
+Libya,0,0,0,0,1
+Somaliland,0,0,0,0,1
+Bosnia and Herz.,0,0,0,0,1
+Macedonia,0,0,0,0,1
+Serbia,0,0,0,0,1
+Montenegro,0,0,0,0,1
+Kosovo,0,0,0,0,1
+Trinidad and Tobago,0,0,0,0,1
+S. Sudan,0,0,0,0,1
+

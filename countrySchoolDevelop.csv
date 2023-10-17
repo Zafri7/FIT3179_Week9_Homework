@@ -1,0 +1,234 @@
+Country,Mean Years of Schooling,Development Status
+"United States of America",13.4,Developed
+China,7.5,Developing
+Japan,12.5,Developed
+Germany,13.1,Developed
+India,6.3,Developing
+"United Kingdom",13.1,Developed
+France,11.6,Developed
+Russia,12.0,Developing
+Canada,13.3,Developed
+Italy,9.7,Developed
+Brazil,7.2,Developing
+Australia,12.0,Developed
+"Korea, Rep.",12.2,Developed
+Mexico,8.5,Developing
+Spain,9.9,Developed
+Indonesia,7.6,Developing
+Saudi Arabia,9.2,Developing
+Netherlands,11.9,Developed
+Türkiye,7.6,Developing
+Switzerland,13.4,Developed
+Poland,11.3,Developed
+Argentina,9.8,Developing
+Sweden,12.8,Developed
+Norway,12.7,Developed
+Belgium,11.6,Developed
+Cuba,10.2,Developing
+Ireland,12.3,Developed
+Israel,12.8,Developed
+"United Arab Emirates",10.4,Developing
+Thailand,7.9,Developing
+Nigeria,5.2,Developing
+"Egypt, Arab Rep.",6.4,Developing
+Austria,10.0,Developed
+Singapore,11.5,Developed
+Bangladesh,5.2,Developing
+Vietnam,8.0,Developing
+Malaysia,9.5,Developing
+"South Africa",10.1,Developing
+Philippines,9.3,Developing
+Denmark,12.1,Developed
+"Iran, Islamic Rep.",8.0,Developing
+Pakistan,5.1,Developing
+"Hong Kong SAR, China",11.6,Developed
+Colombia,7.6,Developing
+Romania,10.8,Developing
+Chile,10.0,Developing
+Czech Republic,12.8,Developed
+Finland,12.5,Developed
+Iraq,6.1,Developing
+Portugal,9.2,Developed
+"New Zealand",12.5,Developed
+Peru,8.7,Developing
+Qatar,9.8,Developing
+Kazakhstan,11.2,Developing
+Greece,10.5,Developed
+Algeria,7.6,Developing
+Kuwait,6.1,Developing
+Hungary,11.5,Developed
+Ukraine,11.0,Developing
+Morocco,5.5,Developing
+Ethiopia,2.4,Developing
+"Slovak Republic",11.6,Developed
+Ecuador,7.5,Developing
+Oman,6.8,Developing
+"Dominican Republic",8.2,Developing
+"Puerto Rico",9.0,Developed
+Kenya,6.3,Developing
+Angola,4.4,Developing
+Guatemala,6.1,Developing
+Bulgaria,10.6,Developing
+Luxembourg,11.6,Developed
+Uzbekistan,11.8,Developing
+Azerbaijan,11.7,Developing
+Panama,8.4,Developing
+Tanzania,5.8,Developing
+Sri Lanka,10.8,Developing
+Ghana,7.1,Developing
+Belarus,11.4,Developing
+Uruguay,8.5,Developing
+Croatia,10.6,Developing
+Lithuania,12.7,Developed
+"Côte d'Ivoire",4.3,Developing
+"Costa Rica",8.3,Developing
+Serbia,10.6,Developing
+Slovenia,12.1,Developed
+Myanmar,4.7,Developing
+"Congo, Dem. Rep.",6.0,Developing
+Sudan,3.1,Developing
+Jordan,9.6,Developing
+Tunisia,6.5,Developing
+Libya,7.3,Developing
+Turkmenistan,10.7,Developing
+Uganda,5.4,Developing
+Bahrain,9.4,Developing
+Cameroon,6.1,Developing
+Bolivia,9.2,Developing
+Paraguay,8.1,Developing
+Latvia,11.9,Developed
+Nepal,4.1,Developing
+Estonia,12.5,Developed
+"El Salvador",6.5,Developing
+Honduras,6.2,Developing
+"Papua New Guinea",4.5,Developing
+Cambodia,3.1,Developing
+Zambia,6.3,Developing
+Cyprus,11.7,Developed
+"Trinidad and Tobago",9.0,Developing
+Iceland,12.2,Developed
+Senegal,2.8,Developing
+Georgia,12.8,Developing
+"Bosnia and Herzegovina",9.0,Developing
+Lebanon,8.6,Developing
+"Macao SAR, China",10.0,Developed
+Guinea,2.4,Developing
+Gabon,7.8,Developing
+Zimbabwe,7.3,Developing
+Botswana,9.3,Developing
+Haiti,4.9,Developing
+Armenia,10.8,Developing
+"West Bank and Gaza",9.4,Developing
+Burkina Faso,1.4,Developing
+Albania,9.9,Developing
+Mali,2.0,Developing
+Mozambique,3.5,Developing
+Malta,11.4,Developed
+Benin,3.1,Developing
+Jamaica,9.0,Developing
+Mongolia,10.2,Developing
+"Brunei Darussalam",9.3,Developing
+"Lao PDR",5.2,Developing
+Nicaragua,6.1,Developing
+Guyana,8.4,Developing
+Madagascar,5.2,Developing
+"Congo, Rep.",6.1,Developing
+Afghanistan,3.2,Developing
+Moldova,11.8,Developing
+Niger,1.5,Developing
+"North Macedonia",9.7,Developing
+Rwanda,3.7,Developing
+Malawi,4.3,Developing
+Mauritius,9.3,Developing
+"Bahamas, The",12.1,Developed
+Chad,2.3,Developing
+Namibia,6.4,Developing
+"Equatorial Guinea",5.8,Developing
+"Channel Islands",12.5,Developed
+"Syrian Arab Republic",6.5,Developing
+"Kyrgyz Republic",10.8,Developing
+Tajikistan,10.8,Developing
+Mauritania,4.4,Developing
+"New Caledonia",11.0,Developed
+Kosovo,9.6,Developing
+Monaco,10.0,Developed
+Togo,3.7,Developing
+Somalia,2.4,Developing
+Bermuda,12.0,Developed
+Liechtenstein,12.0,Developed
+"Isle of Man",12.2,Developed
+Maldives,6.4,Developing
+Guam,12.1,Developed
+Montenegro,11.6,Developing
+"French Polynesia",11.0,Developed
+"Cayman Islands",12.1,Developed
+Barbados,9.8,Developing
+Fiji,10.2,Developing
+Eswatini,7.1,Developing
+"Virgin Islands (U.S.)",11.0,Developed
+Liberia,4.4,Developing
+"Sierra Leone",3.1,Developing
+"Faroe Islands",12.3,Developed
+Suriname,7.6,Developing
+Djibouti,4.1,Developing
+Andorra,11.0,Developed
+Greenland,12.5,Developed
+"Timor-Leste",2.8,Developing
+Aruba,11.2,Developed
+Burundi,2.7,Developing
+Belize,9.2,Developing
+Curaçao,11.2,Developed
+Lesotho,5.8,Developing
+Bhutan,3.1,Developing
+"Central African Republic",4.2,Developing
+"Cabo Verde",5.5,Developing
+"Gambia, The",2.8,Developing
+"St. Lucia",9.0,Developing
+San Marino,12.1,Developed
+"Antigua and Barbuda",9.0,Developing
+"Guinea-Bissau",2.9,Developing
+Solomon Islands,4.5,Developing
+Seychelles,9.4,Developing
+"Sint Maarten (Dutch part)",11.3,Developed
+Grenada,8.6,Developing
+Comoros,3.8,Developing
+"Turks and Caicos Islands",11.4,Developed
+Vanuatu,6.6,Developing
+"St. Kitts and Nevis",9.5,Developing
+"St. Vincent and the Grenadines",8.4,Developing
+"Northern Mariana Islands",11.5,Developed
+Samoa,10.3,Developing
+"American Samoa",11.2,Developed
+Dominica,8.7,Developing
+"São Tomé and Principe",4.9,Developing
+Tonga,10.9,Developing
+"Micronesia, Fed. Sts.",9.0,Developing
+Marshall Islands,10.0,Developing
+Kiribati,10.8,Developing
+Palau,12.4,Developed
+Nauru,10.0,Developing
+Tuvalu,11.0,Developing
+Venezuela,7.3,Developing
+"Central African Rep.",4.2,Developing
+"Dem. Rep. Congo",6.0,Developing
+Gabon,7.8,Developing
+Congo,6.1,Developing
+Iran,8.0,Developing
+Turkey,7.6,Developing
+Egypt,6.4,Developing
+Czechia,12.8,Developed
+Slovakia,11.6,Developed
+"Dominican Rep.",8.2,Developing
+"S. Sudan",3.2,Developing
+Eritrea,3.9,Developing
+Somaliland,3.5,Developing
+Yemen,2.8,Developing
+Syria,6.5,Developing
+Kyrgyzstan,10.8,Developing
+Laos,5.2,Developing
+"North Korea",N/A,Developing
+"South Korea",12.2,Developed
+Taiwan,12.0,Developed
+"W. Sahara",N/A,Developing
+"Bosnia and Herz.",9.0,Developing
+Macedonia,9.7,Developing

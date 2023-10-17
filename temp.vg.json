@@ -33,35 +33,28 @@
     "x": {
       "field": "GDP_Per_Capita",
       "type": "quantitative",
-      "scale": {"domain": [0, 120000]},
-      "axis": {"tickCount": 5, "format": "s"},
-      "title": "GDP Per Capita(USD)"
+      "title": "GDP Per Capita",
+      "scale": {"domain": [0, 100000]},
+      "axis": {"tickCount": 5, "format": "s"}
     },
     "y": {
       "field": "Life_Expectancy",
       "type": "quantitative",
+      "title": "Life Expectancy",
       "scale": {"domain": [50, 90]},
-      "axis": {"tickCount": 6, "format": ".1f"},
-      "title": "Life Expectancy(years)"
+      "axis": {"tickCount": 6, "format": ".1f"}
     },
     "color": {
       "field": "Region",
       "type": "nominal",
       "scale": {
         "domain": ["Eastern Mediterranean", "Africa", "Americas", "Europe", "South-East Asia", "Western Pacific"],
-        "range": ["#76D7C4 ", "#984ea3", "#ff7f00", "#F08080", "#377eb8", "#a65628"]
+        "range": ["#e41a1c", "#984ea3", "#ff7f00", "#a6cee3", "#377eb8", "#a65628"]
       }
     }
   },
   "layer": [
     {
-      "selection": {
-        "zoom": {
-          "type": "interval",
-          "bind": "scales",
-          "encodings": ["x", "y"]
-        }
-      },
       "mark": "circle",
       "encoding": {
         "size": {
@@ -69,7 +62,6 @@
           "type": "quantitative",
           "scale": {
             "type": "sqrt",
-            
             "domain": [1000000, 500000000],
             "range": [40, 700]
           },
@@ -86,21 +78,15 @@
       }
     },
     {
-      "mark": {
-        "type": "text",
-        "align": "right",
-        "baseline": "middle",
-        "dx": 40,
-        "dy": -15,
-        "fontSize": 11.5,
-        "fontStyle": "italic"
-      },
+      "mark": "text",
       "encoding": {
         "text": {"field": "Country", "type": "nominal"},
+        "x": {"field": "GDP_Per_Capita", "type": "quantitative"},
+        "y": {"field": "Life_Expectancy", "type": "quantitative"},
         "color": {"value": "black"},
         "opacity": {
           "condition": {
-            "test": "datum['Country'] == 'Japan' || datum['Country'] == 'Singapore' || datum['Country'] == 'United States of America' || datum['Country'] == 'Australia'  ||  datum['Country'] == 'Switzerland'||  datum['Country'] == 'France'",
+            "test": "datum['Country'] === 'Malaysia' || datum['Country'] === 'United States of America' || datum['Country'] === 'China' || datum['Country'] === 'Singapore' || datum['Country'] === 'Japan'",
             "value": 1
           },
           "value": 0

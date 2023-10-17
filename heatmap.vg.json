@@ -1,0 +1,668 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "Waffle chart showing GDP per capita by region",
+    "width": 300,
+    "height": 300,
+    "data": {
+        "values": [
+            {
+                "Region": "Africa",
+                "Square Count": 1,
+                "row": 1,
+                "column": 1
+            },
+            {
+                "Region": "Africa",
+                "Square Count": 2,
+                "row": 1,
+                "column": 2
+            },
+            {
+                "Region": "Africa",
+                "Square Count": 3,
+                "row": 1,
+                "column": 3
+            },
+            {
+                "Region": "Africa",
+                "Square Count": 4,
+                "row": 1,
+                "column": 4
+            },
+            {
+                "Region": "Africa",
+                "Square Count": 5,
+                "row": 1,
+                "column": 5
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 6,
+                "row": 1,
+                "column": 6
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 7,
+                "row": 1,
+                "column": 7
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 8,
+                "row": 1,
+                "column": 8
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 9,
+                "row": 1,
+                "column": 9
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 10,
+                "row": 1,
+                "column": 10
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 11,
+                "row": 2,
+                "column": 1
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 12,
+                "row": 2,
+                "column": 2
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 13,
+                "row": 2,
+                "column": 3
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 14,
+                "row": 2,
+                "column": 4
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 15,
+                "row": 2,
+                "column": 5
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 16,
+                "row": 2,
+                "column": 6
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 17,
+                "row": 2,
+                "column": 7
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 18,
+                "row": 2,
+                "column": 8
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 19,
+                "row": 2,
+                "column": 9
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 20,
+                "row": 2,
+                "column": 10
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 21,
+                "row": 3,
+                "column": 1
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 22,
+                "row": 3,
+                "column": 2
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 23,
+                "row": 3,
+                "column": 3
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 24,
+                "row": 3,
+                "column": 4
+            },
+            {
+                "Region": "Americas",
+                "Square Count": 25,
+                "row": 3,
+                "column": 5
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 26,
+                "row": 3,
+                "column": 6
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 27,
+                "row": 3,
+                "column": 7
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 28,
+                "row": 3,
+                "column": 8
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 29,
+                "row": 3,
+                "column": 9
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 30,
+                "row": 3,
+                "column": 10
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 31,
+                "row": 4,
+                "column": 1
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 32,
+                "row": 4,
+                "column": 2
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 33,
+                "row": 4,
+                "column": 3
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 34,
+                "row": 4,
+                "column": 4
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 35,
+                "row": 4,
+                "column": 5
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 36,
+                "row": 4,
+                "column": 6
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 37,
+                "row": 4,
+                "column": 7
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 38,
+                "row": 4,
+                "column": 8
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 39,
+                "row": 4,
+                "column": 9
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 40,
+                "row": 4,
+                "column": 10
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 41,
+                "row": 5,
+                "column": 1
+            },
+            {
+                "Region": "Eastern Mediterranean",
+                "Square Count": 42,
+                "row": 5,
+                "column": 2
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 43,
+                "row": 5,
+                "column": 3
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 44,
+                "row": 5,
+                "column": 4
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 45,
+                "row": 5,
+                "column": 5
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 46,
+                "row": 5,
+                "column": 6
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 47,
+                "row": 5,
+                "column": 7
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 48,
+                "row": 5,
+                "column": 8
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 49,
+                "row": 5,
+                "column": 9
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 50,
+                "row": 5,
+                "column": 10
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 51,
+                "row": 6,
+                "column": 1
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 52,
+                "row": 6,
+                "column": 2
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 53,
+                "row": 6,
+                "column": 3
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 54,
+                "row": 6,
+                "column": 4
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 55,
+                "row": 6,
+                "column": 5
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 56,
+                "row": 6,
+                "column": 6
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 57,
+                "row": 6,
+                "column": 7
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 58,
+                "row": 6,
+                "column": 8
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 59,
+                "row": 6,
+                "column": 9
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 60,
+                "row": 6,
+                "column": 10
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 61,
+                "row": 7,
+                "column": 1
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 62,
+                "row": 7,
+                "column": 2
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 63,
+                "row": 7,
+                "column": 3
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 64,
+                "row": 7,
+                "column": 4
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 65,
+                "row": 7,
+                "column": 5
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 66,
+                "row": 7,
+                "column": 6
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 67,
+                "row": 7,
+                "column": 7
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 68,
+                "row": 7,
+                "column": 8
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 69,
+                "row": 7,
+                "column": 9
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 70,
+                "row": 7,
+                "column": 10
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 71,
+                "row": 8,
+                "column": 1
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 72,
+                "row": 8,
+                "column": 2
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 73,
+                "row": 8,
+                "column": 3
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 74,
+                "row": 8,
+                "column": 4
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 75,
+                "row": 8,
+                "column": 5
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 76,
+                "row": 8,
+                "column": 6
+            },
+            {
+                "Region": "Europe",
+                "Square Count": 77,
+                "row": 8,
+                "column": 7
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 78,
+                "row": 8,
+                "column": 8
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 79,
+                "row": 8,
+                "column": 9
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 80,
+                "row": 8,
+                "column": 10
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 81,
+                "row": 9,
+                "column": 1
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 82,
+                "row": 9,
+                "column": 2
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 83,
+                "row": 9,
+                "column": 3
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 84,
+                "row": 9,
+                "column": 4
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 85,
+                "row": 9,
+                "column": 5
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 86,
+                "row": 9,
+                "column": 6
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 87,
+                "row": 9,
+                "column": 7
+            },
+            {
+                "Region": "South-East Asia",
+                "Square Count": 88,
+                "row": 9,
+                "column": 8
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 89,
+                "row": 9,
+                "column": 9
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 90,
+                "row": 9,
+                "column": 10
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 91,
+                "row": 10,
+                "column": 1
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 92,
+                "row": 10,
+                "column": 2
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 93,
+                "row": 10,
+                "column": 3
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 94,
+                "row": 10,
+                "column": 4
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 95,
+                "row": 10,
+                "column": 5
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 96,
+                "row": 10,
+                "column": 6
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 97,
+                "row": 10,
+                "column": 7
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 98,
+                "row": 10,
+                "column": 8
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 99,
+                "row": 10,
+                "column": 9
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 100,
+                "row": 10,
+                "column": 10
+            },
+            {
+                "Region": "Western Pacific",
+                "Square Count": 101,
+                "row": 11,
+                "column": 1
+            }
+        ]
+    },
+    "layer": [
+        {
+            "mark": {
+                "type": "square",
+                "size": 500
+            },
+            "encoding": {
+                "x": {
+                    "field": "column",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "y": {
+                    "field": "row",
+                    "type": "quantitative",
+                    "axis": null
+                },
+                "color": {
+                    "field": "Region",
+                    "type": "nominal",
+                    "legend": {
+                        "labelFont": "Roboto",
+                        "labelFontSize": 15,
+                        "titleFont": "Roboto",
+                        "titleFontSize": 15,
+                        "title": "Region",
+                        "orient": "bottom",
+                        "offset": 38
+                    }
+                },
+                "tooltip": [
+                    {
+                        "field": "Region"
+                    }
+                ]
+            },
+            "title": {
+                "text": "GDP Per Capita by Region (Proportional)",
+                "dx": 18,
+                "orient": "top",
+                "font": "Roboto",
+                "fontSize": 15
+            }
+        }
+    ],
+    "config": {
+        "style": {
+            "cell": {
+                "stroke": "transparent"
+            }
+        }
+    }
+}

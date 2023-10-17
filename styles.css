@@ -35,16 +35,21 @@ body {
 	margin-top: 10px;
   }
    */
-  .card-text p {
+   .card-text p {
 	background-color: white;
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
 	margin-top: 10px;
-	width: auto; /* Set to any width you want */
-	white-space: normal; /* Allows the text to wrap */
-	word-wrap: break-word; /* Breaks the word and wraps onto the next line */
+	width: auto;
+	white-space: normal;
+	word-wrap: break-word;
+	font-style: italic; /* Set the font to italic */
+	color: #888; /* Lighter gray color */
+	font-family: 'Verdana', sans-serif; 
+	font-size: 14px;
   }
+  
   .card-text-donut p {
 	background-color: white;
 	padding: 10px;
@@ -54,6 +59,9 @@ body {
 	width: 300px; /* Set to any width you want */
 	white-space: normal; /* Allows the text to wrap */
 	word-wrap: break-word; /* Breaks the word and wraps onto the next line */
+	font-style: italic; /* Set the font to italic */
+	color: #888; /* Lighter gray color */
+	font-family: 'Verdana', sans-serif;
   }
   /* Legend styling */
   .legend span {
@@ -68,6 +76,8 @@ body {
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 	padding: 10px;
 	margin-bottom: 20px;
+	/* padding-left: 15x;
+	padding-right: 15px; */
   }
 
 
@@ -131,4 +141,68 @@ body {
   
   .legend-text {
 	font-size: 14px;
+  }
+
+  .highlight {
+	color: #e6550d ;
+	
+  }
+  .highlight-darker {
+	color: #a63603;
+	
+  }
+  .highlight-life {
+	color: #c41ec9;
+	
+  }
+  .highlight-school {
+	color: #1e5ac9;
+	
+  }
+
+  
+
+  .highlighted {
+    color: transparent; /* Set the color */
+    color: #fff; /* Set text color to white for better readability */
+    font-weight: bold; /* Make the text bold */
+  }
+
+  /* Apply the CSS class to specific regions using their respective IDs */
+  #Eastern_Mediterranean {
+    color: #76D7C4; /* Apply the color for Eastern Mediterranean */
+  }
+
+  #Africa {
+    color:#984ea3 ; /* Apply the color for Africa */
+	
+  }
+
+  #Americas {
+    color: #ff7f00; /* Apply the color for Americas */
+  }
+
+  #Europe {
+    color: #F08080; /* Apply the color for Europe */
+  }
+
+  #South_East_Asia {
+    color: #377eb8; /* Apply the color for South-East Asia */
+  }
+
+  #Western_Pacific {
+    color: #a65628; /* Apply the color for Western Pacific */
+  }
+  h1 {
+	font-family: 'Montserrat', sans-serif; /* Modern, non-standard font */
+	font-size: 26px;                       /* Font size */
+	font-weight: 700;                      /* Font weight */
+	color: #333;                           /* Dark gray color for better contrast with light blue background */
+  }
+
+  h2 {
+	font-family: 'Montserrat', sans-serif; /* Modern, non-standard font */
+	font-size: 22px;                       /* Font size */
+	font-weight: 700;                      /* Font weight */
+	color: #333;                           /* Dark gray color for better contrast with light blue background */
   }

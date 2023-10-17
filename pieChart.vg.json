@@ -2,36 +2,58 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
     "values": [
-      {"Region": "Africa", "Mean Years of Schooling": 6},
-      {"Region": "South-East Asia", "Mean Years of Schooling": 7},
-      {"Region": "Eastern Mediterranean", "Mean Years of Schooling": 7},
-      {"Region": "Western Pacific", "Mean Years of Schooling": 9},
-      {"Region": "Americas", "Mean Years of Schooling": 9},
-      {"Region": "Europe", "Mean Years of Schooling": 11}
-    ]
+      {"Region": "Africa", "Mean Years of Schooling": 6, "GDP": 35734, "Population": 15425333, "GDP_Per_Capita": 4824, "Life_Expectancy": 64},
+      {"Region": "South-East Asia", "Mean Years of Schooling": 7, "GDP": 519175, "Population": 159646923, "GDP_Per_Capita": 10386, "Life_Expectancy": 72},
+      {"Region": "Eastern Mediterranean", "Mean Years of Schooling": 7, "GDP": 270848, "Population": 41850000, "GDP_Per_Capita": 16282, "Life_Expectancy": 74},
+      {"Region": "Western Pacific", "Mean Years of Schooling": 9, "GDP": 890636, "Population": 82578348, "GDP_Per_Capita": 12509, "Life_Expectancy": 74},
+      {"Region": "Americas", "Mean Years of Schooling": 9, "GDP": 767548, "Population": 25237220, "GDP_Per_Capita": 19695, "Life_Expectancy": 76},
+      {"Region": "Europe", "Mean Years of Schooling": 11, "GDP": 426759, "Population": 16649548, "GDP_Per_Capita": 34355, "Life_Expectancy": 78}
+    ],
+    "name": "table"
   },
   "width": 300,
-  "height": 300,
+  "height": 325,
   "layer": [
     {
       "mark": {
         "type": "arc",
         "innerRadius": 20,
         "stroke": "#fff"
+      },
+      "encoding": {
+        "tooltip": [
+          {"field": "Region", "type": "nominal"},
+          {"field": "GDP", "type": "quantitative"},
+          {"field": "Population", "type": "quantitative"},
+          {"field": "GDP_Per_Capita", "type": "quantitative", "title":"GDP Per Capita"},
+          {"field": "Life_Expectancy", "type": "quantitative", "title":"Life Expectancy"},
+          {"field": "Mean Years of Schooling", "type": "quantitative"}
+        ],
+        "radius": {
+          "field": "Mean Years of Schooling",
+          "scale": {
+            "type": "sqrt",
+            "zero": true,
+            "rangeMin": 20
+          }
+        }
       }
     },
     {
       "mark": {
         "type": "text",
-        "radiusOffset": 30,
+        "radiusOffset": 15,
         "size": 20,
-        "color": "black"
+        "color": "black",
+        "angle": 0
       },
       "encoding": {
         "text": {
           "field": "Mean Years of Schooling",
           "type": "quantitative"
-        }
+        },
+        "theta": {"field": "Mean Years of Schooling", "type": "quantitative"},
+        "radius": {"field": "Mean Years of Schooling", "type": "quantitative"}
       }
     }
   ],
@@ -42,14 +64,6 @@
       "stack": true,
       "sort": "descending"
     },
-    "radius": {
-      "field": "Mean Years of Schooling",
-      "scale": {
-        "type": "sqrt",
-        "zero": true,
-        "rangeMin": 20
-      }
-    },
     "color": {
       "field": "Region",
       "type": "nominal",
@@ -58,30 +72,15 @@
         "range": ["#76D7C4", "#984ea3", "#ff7f00", "#F08080", "#377eb8", "#a65628"]
       },
       "legend": {
-        "labelFont": "Roboto",
-        "labelFontSize": 12,
-        "titleFont": "Roboto",
-        "titleFontSize": 13,
-        "title": "Region",
-        "orient": "left"
-      }
+        "orient": "left"}
     }
   },
- 
   "title": {
     "text": "Mean Years of Schooling by Region",
     "font": "Futura",
-      "fontSize": 16,
-      "fontWeight": "bold",
-      "anchor": "middle",
-      "offset": 10
-  },
-  
-  "config": {
-    "style": {
-      "cell": {
-        "stroke": "transparent"
-      }
-    }
+    "fontSize": 16,
+    "fontWeight": "bold",
+    "anchor": "middle",
+    "offset": 10
   }
 }

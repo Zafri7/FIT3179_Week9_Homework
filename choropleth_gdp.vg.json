@@ -1,20 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": {
-    "text": "GDP per Capita by Country 2022",
-    "font": "Futura",
-      "fontSize": 16,
-      "fontWeight": "bold",
-      "anchor": "middle",
-      "offset": 10
-  },
+
   "width": 800,
   "height": 400,
   "padding": {"left": 10},
   "params": [
     {
       "name": "zoom_level",
-      "value": 145,
+      "value": 140,
       "bind": {
         "input": "range",
         "min": 150,
@@ -30,19 +23,21 @@
         "input": "select",
         "options": [
           [0, 0],
-          [81, 144],
-          [-60, -22],
-          [9, 1],
-          [130, -30],
-          [-90, 120]
+          [50, 25],
+          [-20, -20],
+          [-120, 0],
+          [45, 50],
+          [140, -20],
+          [140, 0]
         ],
         "labels": [
           "Whole map",
-          "Asia & Europe",
-          "South America",
+          "Eastern Mediterranean",
           "Africa",
-          "Asia Pacific",
-          "North America"
+          "Americas",
+          "Europe",
+          "South-East Asia",
+          "Eastern Pacific"
         ],
         "name": "Map Centre: "
       }
@@ -52,7 +47,7 @@
     "type": "equalEarth",
     "scale": {"expr": "zoom_level"},
     "rotate": [-20, 0, 0],
-    "center": {"expr": "center_to"}
+    "center": {"signal": "center_to"} 
   },
   "layer": [
     {
@@ -75,18 +70,18 @@
           "lookup": "properties.NAME",
           "from": {
             "data": {
-              "url": "Final_Merged_GDP_Per_Capita_Rounded.csv"  
+              "url": "Final_Merged_GDP_Per_Capita_Rounded.csv"
             },
             "key": "Country",
-            "fields": ["GDP_per_Capita"],  
-            "default": {"GDP_per_Capita": 0}  
+            "fields": ["GDP_per_Capita"],
+            "default": {"GDP_per_Capita": 0}
           }
         }
       ],
       "mark": {"type": "geoshape", "stroke": "black"},
       "encoding": {
         "color": {
-          "field": "GDP_per_Capita",  
+          "field": "GDP_per_Capita",
           "type": "quantitative",
           "scale": {
             "type": "threshold",
@@ -100,7 +95,7 @@
         },
         "tooltip": [
           {"field": "properties.NAME", "type": "nominal", "title": "Country"},
-          {"field": "GDP_per_Capita", "type": "quantitative"}  
+          {"field": "GDP_per_Capita", "type": "quantitative"}
         ]
       }
     },

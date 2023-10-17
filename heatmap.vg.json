@@ -1,7 +1,7 @@
 {
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "Waffle chart showing GDP per capita by region",
-    "width": 350,
+    "width": 400,
     "height": 315,
     "data": {
         "values": [

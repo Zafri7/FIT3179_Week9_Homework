@@ -30,7 +30,7 @@
                 "column": 4
             },
             {
-                "Region": "Africa",
+                "Region": "Americas",
                 "Square Count": 5,
                 "row": 1,
                 "column": 5
@@ -150,7 +150,7 @@
                 "column": 4
             },
             {
-                "Region": "Americas",
+                "Region": "Eastern Mediterranean",
                 "Square Count": 25,
                 "row": 3,
                 "column": 5
@@ -252,7 +252,7 @@
                 "column": 1
             },
             {
-                "Region": "Eastern Mediterranean",
+                "Region": "Europe",
                 "Square Count": 42,
                 "row": 5,
                 "column": 2
@@ -462,7 +462,7 @@
                 "column": 6
             },
             {
-                "Region": "Europe",
+                "Region": "South-East Asia",
                 "Square Count": 77,
                 "row": 8,
                 "column": 7
@@ -528,7 +528,7 @@
                 "column": 7
             },
             {
-                "Region": "South-East Asia",
+                "Region": "Western Pacific",
                 "Square Count": 88,
                 "row": 9,
                 "column": 8
@@ -604,12 +604,6 @@
                 "Square Count": 100,
                 "row": 10,
                 "column": 10
-            },
-            {
-                "Region": "Western Pacific",
-                "Square Count": 101,
-                "row": 11,
-                "column": 1
             }
         ]
     },
@@ -641,6 +635,24 @@
                         "title": "Region",
                         "orient": "bottom",
                         "offset": 38
+                    },
+                    "scale": {
+                        "domain": [
+                            "Eastern Mediterranean",
+                            "Africa",
+                            "Americas",
+                            "Europe",
+                            "South-East Asia",
+                            "Western Pacific"
+                        ],
+                        "range": [
+                            "#76D7C4",
+                            "#984ea3",
+                            "#ff7f00",
+                            "#F08080",
+                            "#377eb8",
+                            "#a65628"
+                        ]
                     }
                 },
                 "tooltip": [

@@ -1,8 +1,74 @@
-#choropleth_map {
-	top:100px;
-	bottom: 100px; 
-	left: 100px;
-	right: 100px;
-	/*height: 1000px;
-	width: 800px; */
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Section styling */
+.story-section {
+  margin-bottom: 40px;
+}
+
+/* Card styling */
+.card {
+  background-color: lightblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+/* Legend styling */
+.legend span {
+  margin-right: 5px;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Section styling */
+.story-section {
+  margin-bottom: 40px;
+}
+
+/* Card styling */
+.card {
+  background-color: lightblue;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-text p {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+/* Legend styling */
+.legend span {
+  margin-right: 5px;
 }

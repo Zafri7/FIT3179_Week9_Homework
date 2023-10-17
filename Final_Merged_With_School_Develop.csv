@@ -1,0 +1,267 @@
+Country,GDP,Population,GDP_Per_Capita,Region,Life_Expectancy,Mean Years of Schooling,Development Status
+United States of America,25462700,332000000.0,76694,Americas,76.0,13.4,Developed
+China,17963171,1400000000.0,12830,Western Pacific,76.0,7.5,Developing
+Japan,4231141,126000000.0,33580,Western Pacific,84.0,12.5,Developed
+Germany,4072192,83000000.0,49062,Europe,81.0,13.1,Developed
+India,3385090,1400000000.0,2417,South-East Asia,69.0,6.3,Developing
+United Kingdom,3070668,68000000.0,45156,Europe,81.0,13.1,Developed
+France,2782905,67000000.0,41535,Europe,82.0,11.6,Developed
+Russia,2240422,146000000.0,15345,Europe,73.0,12.0,Developing
+Canada,2139840,38000000.0,56311,Americas,82.0,13.3,Developed
+Italy,2010432,60000000.0,33507,Europe,83.0,9.7,Developed
+Brazil,1920096,213000000.0,9014,Americas,75.0,7.2,Developing
+Australia,1675419,26000000.0,64439,Western Pacific,83.0,12.0,Developed
+"Korea, Rep.",1665246,,0,Western Pacific,83.0,12.2,Developed
+Mexico,1414187,130000000.0,10878,Americas,75.0,8.5,Developing
+Spain,1397509,47000000.0,29734,Europe,83.0,9.9,Developed
+Indonesia,1319100,276000000.0,4779,South-East Asia,71.0,7.6,Developing
+Saudi Arabia,1108149,35000000.0,31661,Eastern Mediterranean,75.0,9.2,Developing
+Netherlands,991115,17000000.0,58300,Europe,82.0,11.9,Developed
+Türkiye,905988,,0,Europe,77.0,7.6,Developing
+Switzerland,807706,8600000.0,93919,Europe,83.0,13.4,Developed
+Poland,688177,38000000.0,18109,Europe,78.0,11.3,Developed
+Argentina,632770,45000000.0,14061,Americas,76.0,9.8,Developing
+Sweden,585939,10000000.0,58593,Europe,83.0,12.8,Developed
+Norway,579267,5400000.0,107271,Europe,83.0,12.7,Developed
+Belgium,578604,11600000.0,49879,Europe,81.0,11.6,Developed
+Cuba,545218,11000000.0,49565,Americas,79.0,10.2,Developing
+Ireland,529245,5000000.0,105849,Europe,82.0,12.3,Developed
+Israel,522033,9200000.0,56742,Eastern Mediterranean,83.0,12.8,Developed
+United Arab Emirates,507535,10000000.0,50753,Eastern Mediterranean,77.0,10.4,Developing
+Thailand,495341,70000000.0,7076,South-East Asia,75.0,7.9,Developing
+Nigeria,477386,211000000.0,2262,Africa,54.0,5.2,Developing
+"Egypt, Arab Rep.",476748,,0,Eastern Mediterranean,71.0,6.4,Developing
+Austria,471400,9000000.0,52377,Europe,81.0,10.0,Developed
+Singapore,466789,5800000.0,80480,South-East Asia,83.0,11.5,Developed
+Bangladesh,460201,166000000.0,2772,South-East Asia,72.0,5.2,Developing
+Vietnam,408802,98000000.0,4171,Western Pacific,75.0,8.0,Developing
+Malaysia,406306,32000000.0,12697,South-East Asia,76.0,9.5,Developing
+South Africa,405870,60000000.0,6764,Africa,63.0,10.1,Developing
+Philippines,404284,113000000.0,3577,Western Pacific,69.0,9.3,Developing
+Denmark,395404,5800000.0,68173,Europe,81.0,12.1,Developed
+"Iran, Islamic Rep.",388544,,0,Eastern Mediterranean,76.0,8.0,Developing
+Pakistan,376533,225000000.0,1673,Eastern Mediterranean,67.0,5.1,Developing
+"Hong Kong SAR, China",359839,,0,Western Pacific,85.0,11.6,Developed
+Colombia,343939,51000000.0,6743,Americas,77.0,7.6,Developing
+Romania,301262,19000000.0,15855,Europe,76.0,10.8,Developing
+Chile,301025,19000000.0,15843,Americas,80.0,10.0,Developing
+Czech Republic,290924,11000000.0,26447,Europe,79.0,12.8,Developed
+Finland,280826,5500000.0,51059,Europe,82.0,12.5,Developed
+Iraq,264182,41000000.0,6443,Eastern Mediterranean,70.0,6.1,Developing
+Portugal,251945,10000000.0,25194,Europe,82.0,9.2,Developed
+New Zealand,247234,5000000.0,49446,Western Pacific,82.0,12.5,Developed
+Peru,242632,33000000.0,7352,Americas,76.0,8.7,Developing
+Qatar,237296,2800000.0,84748,Eastern Mediterranean,80.0,9.8,Developing
+Kazakhstan,220623,19000000.0,11611,Europe,73.0,11.2,Developing
+Greece,219066,10000000.0,21906,Europe,82.0,10.5,Developed
+Algeria,191913,44000000.0,4361,Africa,76.0,7.6,Developing
+Kuwait,184558,4200000.0,43942,Eastern Mediterranean,75.0,6.1,Developing
+Hungary,178789,9700000.0,18431,Europe,76.0,11.5,Developed
+Ukraine,160503,41000000.0,3914,Europe,73.0,11.0,Developing
+Morocco,134182,37000000.0,3626,Africa,76.0,5.5,Developing
+Ethiopia,126783,117000000.0,1083,Africa,66.0,2.4,Developing
+Slovak Republic,115469,,0,Europe,78.0,11.6,Developed
+Ecuador,115049,17000000.0,6767,Americas,76.0,7.5,Developing
+Oman,114667,5100000.0,22483,Eastern Mediterranean,77.0,6.8,Developing
+Dominican Republic,113642,11000000.0,10331,Americas,74.0,8.2,Developing
+Puerto Rico,113435,3000000.0,37811,Americas,81.0,9.0,Developed
+Kenya,113420,54000000.0,2100,Africa,66.0,6.3,Developing
+Angola,106714,33000000.0,3233,Africa,61.0,4.4,Developing
+Guatemala,95003,18000000.0,5277,Americas,74.0,6.1,Developing
+Bulgaria,89040,7000000.0,12720,Europe,75.0,10.6,Developing
+Uzbekistan,80392,34000000.0,2364,Europe,71.0,11.8,Developing
+Azerbaijan,78721,10000000.0,7872,Europe,73.0,11.7,Developing
+Panama,76523,4300000.0,17796,Americas,78.0,8.4,Developing
+Tanzania,75709,61000000.0,1241,Africa,65.0,5.8,Developing
+Sri Lanka,74404,22000000.0,3382,South-East Asia,77.0,10.8,Developing
+Ghana,72839,31000000.0,2349,Africa,63.0,7.1,Developing
+Belarus,72793,9400000.0,7743,Europe,74.0,11.4,Developing
+Uruguay,71177,3500000.0,20336,Americas,77.0,8.5,Developing
+Croatia,70965,4000000.0,17741,Europe,78.0,10.6,Developing
+Lithuania,70334,2700000.0,26049,Europe,75.0,12.7,Developed
+Côte d'Ivoire,70019,,0,Africa,57.0,4.3,Developing
+Costa Rica,68381,5100000.0,13408,Americas,80.0,8.3,Developing
+Serbia,63502,7000000.0,9071,Europe,76.0,10.6,Developing
+Slovenia,62118,2100000.0,29580,Europe,81.0,12.1,Developed
+Myanmar,59364,54000000.0,1099,South-East Asia,67.0,4.7,Developing
+"Congo, Dem. Rep.",58066,,0,Africa,60.0,6.0,Developing
+Sudan,51662,44000000.0,1174,Africa,65.0,3.1,Developing
+Jordan,47451,10000000.0,4745,Eastern Mediterranean,74.0,9.6,Developing
+Tunisia,46665,12000000.0,3888,Africa,76.0,6.5,Developing
+Libya,45752,7000000.0,6536,Africa,72.0,7.3,Developing
+Turkmenistan,45611,6000000.0,7601,Europe,68.0,10.7,Developing
+Uganda,45559,46000000.0,990,Africa,63.0,5.4,Developing
+Bahrain,44391,1700000.0,26112,Eastern Mediterranean,77.0,9.4,Developing
+Cameroon,44342,27000000.0,1642,Africa,58.0,6.1,Developing
+Bolivia,43069,12000000.0,3589,Americas,71.0,9.2,Developing
+Paraguay,41722,7200000.0,5794,Americas,74.0,8.1,Developing
+Latvia,41154,1900000.0,21660,Europe,75.0,11.9,Developed
+Nepal,40828,30000000.0,1360,South-East Asia,70.0,4.1,Developing
+Estonia,38101,1300000.0,29308,Europe,78.0,12.5,Developed
+El Salvador,32489,6500000.0,4998,Americas,74.0,6.5,Developing
+Honduras,31718,10000000.0,3171,Americas,75.0,6.2,Developing
+Papua New Guinea,30633,9000000.0,3403,Western Pacific,64.0,4.5,Developing
+Cambodia,29957,17000000.0,1762,South-East Asia,60.0,3.1,Developing
+Zambia,29784,19000000.0,1567,Africa,63.0,6.3,Developing
+Cyprus,28439,1200000.0,23699,Europe,80.0,11.7,Developed
+Trinidad and Tobago,27899,1400000.0,19927,Americas,73.0,9.0,Developing
+Iceland,27842,360000.0,77338,Europe,83.0,12.2,Developed
+Senegal,27684,17000000.0,1628,Africa,67.0,2.8,Developing
+Georgia,24605,3700000.0,6650,Europe,73.0,12.8,Developing
+Bosnia and Herzegovina,24528,3300000.0,7432,Europe,77.0,9.0,Developing
+Lebanon,23132,7000000.0,3304,Eastern Mediterranean,79.0,8.6,Developing
+"Macao SAR, China",21979,,0,Western Pacific,84.0,10.0,Developed
+Guinea,21228,13000000.0,1632,Africa,61.0,2.4,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Gabon,21072,2200000.0,9578,Africa,66.0,7.8,Developing
+Zimbabwe,20678,15000000.0,1378,Africa,61.0,7.3,Developing
+Botswana,20352,2400000.0,8480,Africa,69.0,9.3,Developing
+Haiti,20254,12000000.0,1687,Americas,64.0,4.9,Developing
+Armenia,19503,3000000.0,6501,Europe,75.0,10.8,Developing
+West Bank and Gaza,19112,5000000.0,3822,Eastern Mediterranean,74.0,9.4,Developing
+Burkina Faso,18885,21000000.0,899,Africa,61.0,1.4,Developing
+Albania,18882,2800000.0,6743,Europe,78.0,9.9,Developing
+Mali,18827,20000000.0,941,Africa,58.0,2.0,Developing
+Mozambique,17851,31000000.0,575,Africa,60.0,3.5,Developing
+Malta,17765,500000.0,35530,Europe,82.0,11.4,Developed
+Benin,17402,12000000.0,1450,Africa,61.0,3.1,Developing
+Jamaica,17098,3000000.0,5699,Americas,74.0,9.0,Developing
+Mongolia,16811,3300000.0,5094,Western Pacific,69.0,10.2,Developing
+Brunei Darussalam,16682,440000.0,37913,Western Pacific,75.0,9.3,Developing
+Lao PDR,15724,7300000.0,2153,Western Pacific,67.0,5.2,Developing
+Nicaragua,15672,6700000.0,2339,Americas,74.0,6.1,Developing
+Guyana,15358,790000.0,19440,Americas,69.0,8.4,Developing
+Madagascar,14955,28000000.0,534,Africa,66.0,5.2,Developing
+"Congo, Rep.",14616,,0,Africa,64.0,6.1,Developing
+Afghanistan,14583,39000000.0,373,Eastern Mediterranean,64.0,3.2,Developing
+Moldova,14421,2700000.0,5341,Europe,72.0,11.8,Developing
+Niger,13970,24000000.0,582,Africa,62.0,1.5,Developing
+North Macedonia,13563,2100000.0,6458,Europe,75.0,9.7,Developing
+Rwanda,13313,13000000.0,1024,Africa,68.0,3.7,Developing
+Malawi,13165,19000000.0,692,Africa,64.0,4.3,Developing
+Mauritius,12898,1300000.0,9921,Africa,74.0,9.3,Developing
+"Bahamas, The",12897,,0,Americas,76.0,12.1,Developed
+Chad,12704,16000000.0,794,Africa,54.0,2.3,Developing
+Namibia,12607,2500000.0,5042,Africa,63.0,6.4,Developing
+Equatorial Guinea,11814,1400000.0,8438,Africa,58.0,5.8,Developing
+Channel Islands,11736,170000.0,69035,Europe,83.0,12.5,Developed
+Syrian Arab Republic,11159,18000000.0,619,Eastern Mediterranean,71.0,6.5,Developing
+Kyrgyz Republic,10931,6500000.0,1681,Europe,71.0,10.8,Developing
+Tajikistan,10492,9500000.0,1104,Europe,71.0,10.8,Developing
+Mauritania,10375,4600000.0,2255,Africa,64.0,4.4,Developing
+New Caledonia,10071,290000.0,34727,Western Pacific,77.0,11.0,Developed
+Kosovo,9429,1800000.0,5238,Europe,71.0,9.6,Developing
+Monaco,8596,39000.0,220410,Europe,89.0,10.0,Developed
+Togo,8126,8300000.0,979,Africa,60.0,3.7,Developing
+Somalia,8126,16000000.0,507,Africa,57.0,2.4,Developing
+Bermuda,7551,64000.0,117984,Americas,81.0,12.0,Developed
+Liechtenstein,7186,38000.0,189105,Europe,82.0,12.0,Developed
+Isle of Man,6684,85000.0,78635,Europe,81.0,12.2,Developed
+Maldives,6190,540000.0,11462,South-East Asia,78.0,6.4,Developing
+Guam,6123,170000.0,36017,Western Pacific,79.0,12.1,Developed
+Montenegro,6096,620000.0,9832,Europe,76.0,11.6,Developing
+French Polynesia,6080,280000.0,21714,Western Pacific,77.0,11.0,Developed
+Cayman Islands,6028,65000.0,92738,Americas,81.0,12.1,Developed
+Barbados,5638,290000.0,19441,Americas,79.0,9.8,Developing
+Fiji,4943,900000.0,5492,Western Pacific,67.0,10.2,Developing
+Eswatini,4854,1400000.0,3467,Africa,59.0,7.1,Developing
+Virgin Islands (U.S.),4204,,0,Americas,80.0,11.0,Developed
+Liberia,4001,5000000.0,800,Africa,63.0,4.4,Developing
+Sierra Leone,3970,8000000.0,496,Africa,54.0,3.1,Developing
+Faroe Islands,3650,49000.0,74489,Europe,82.0,12.3,Developed
+Suriname,3621,590000.0,6137,Americas,71.0,7.6,Developing
+Djibouti,3515,1000000.0,3515,Africa,67.0,4.1,Developing
+Andorra,3352,77000.0,43532,Europe,82.0,11.0,Developed
+Greenland,3236,56000.0,57785,Americas,71.0,12.5,Developed
+Timor-Leste,3163,1300000.0,2433,South-East Asia,73.0,2.8,Developing
+Aruba,3126,110000.0,28418,Americas,76.0,11.2,Developed
+Burundi,3073,12000000.0,256,Africa,61.0,2.7,Developing
+Belize,2824,400000.0,7060,Americas,74.0,9.2,Developing
+Curaçao,2700,,0,Americas,78.0,11.2,Developed
+Lesotho,2553,2200000.0,1160,Africa,54.0,5.8,Developing
+Bhutan,2540,770000.0,3298,South-East Asia,71.0,3.1,Developing
+Central African Republic,2383,4800000.0,496,Africa,53.0,4.2,Developing
+Cabo Verde,2315,560000.0,4133,Africa,73.0,5.5,Developing
+"Gambia, The",2273,,0,Africa,61.0,2.8,Developing
+St. Lucia,2065,180000.0,11472,Americas,76.0,9.0,Developing
+San Marino,1855,34000.0,54558,Europe,83.0,12.1,Developed
+Antigua and Barbuda,1758,98000.0,17938,Americas,76.0,9.0,Developing
+Guinea-Bissau,1634,2000000.0,817,Africa,58.0,2.9,Developing
+Solomon Islands,1596,700000.0,2280,Western Pacific,73.0,4.5,Developing
+Seychelles,1588,98000.0,16204,Africa,73.0,9.4,Developing
+Sint Maarten (Dutch part),1572,,0,Americas,78.0,11.3,Developed
+Grenada,1256,110000.0,11418,Americas,72.0,8.6,Developing
+Comoros,1243,870000.0,1428,Africa,64.0,3.8,Developing
+Turks and Caicos Islands,1139,38000.0,29973,Americas,80.0,11.4,Developed
+Vanuatu,984,310000.0,3174,Western Pacific,70.0,6.6,Developing
+St. Kitts and Nevis,962,53000.0,18150,Americas,76.0,9.5,Developing
+St. Vincent and the Grenadines,949,110000.0,8627,Americas,72.0,8.4,Developing
+Northern Mariana Islands,858,57000.0,15052,Western Pacific,76.0,11.5,Developed
+Samoa,832,200000.0,4160,Western Pacific,73.0,10.3,Developing
+American Samoa,709,55000.0,12890,Western Pacific,75.0,11.2,Developed
+Dominica,612,72000.0,8500,Americas,75.0,8.7,Developing
+São Tomé and Principe,547,,0,Africa,70.0,4.9,Developing
+Tonga,469,,0,Western Pacific,70.0,10.9,Developing
+"Micronesia, Fed. Sts.",427,,0,Western Pacific,67.0,9.0,Developing
+Marshall Islands,280,,0,Western Pacific,73.0,10.0,Developing
+Kiribati,223,,0,Western Pacific,68.0,10.8,Developing
+Palau,218,,0,Western Pacific,73.0,12.4,Developed
+Nauru,151,,0,Western Pacific,67.0,10.0,Developing
+Tuvalu,60,,0,Western Pacific,66.0,11.0,Developing
+Venezuela,482400,28000000.0,17228,Americas,76.0,7.3,Developing
+Central African Rep.,2500,4800000.0,520,Africa,53.0,4.2,Developing
+Dem. Rep. Congo,55000,90000000.0,611,Africa,60.0,6.0,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Gabon,20220,2200000.0,9190,Africa,66.0,7.8,Developing
+Congo,5350,5500000.0,972,Africa,64.0,6.1,Developing
+Iran,359700,84000000.0,4282,Eastern Mediterranean,76.0,8.0,Developing
+Iran,359700,84000000.0,4282,Eastern Mediterranean,76.0,8.0,Developing
+Turkey,819000,84000000.0,9750,Europe,77.0,7.6,Developing
+Turkey,819000,84000000.0,9750,Europe,77.0,7.6,Developing
+Egypt,404100,104000000.0,3885,Eastern Mediterranean,71.0,6.4,Developing
+Egypt,404100,104000000.0,3885,Eastern Mediterranean,71.0,6.4,Developing
+Czechia,281800,11000000.0,25618,Europe,79.0,12.8,Developed
+Slovakia,116500,5400000.0,21574,Europe,78.0,11.6,Developed
+Slovakia,116500,5400000.0,21574,Europe,78.0,11.6,Developed
+Dominican Rep.,94240,11000000.0,8567,Americas,74.0,8.2,Developing
+S. Sudan,12000,11000000.0,1090,Africa,57.0,3.2,Developing
+Eritrea,2065,3500000.0,590,Africa,66.0,3.9,Developing
+Somaliland,1600,3500000.0,457,Africa,58.0,3.5,Developing
+Yemen,26980,30000000.0,899,Eastern Mediterranean,66.0,2.8,Developing
+Syria,64000,18000000.0,3555,Eastern Mediterranean,71.0,6.5,Developing
+Kyrgyzstan,21000,6500000.0,3230,Europe,71.0,10.8,Developing
+Laos,18000,7300000.0,2465,Western Pacific,67.0,5.2,Developing
+North Korea,40000,25000000.0,1600,Western Pacific,72.0,,Developing
+South Korea,1640000,52000000.0,31538,Western Pacific,83.0,12.2,Developed
+Taiwan,602000,24000000.0,25083,Western Pacific,80.0,12.0,Developed
+W. Sahara,906,600000.0,1510,Africa,70.0,,Developing
+Bosnia and Herz.,19500,3300000.0,5909,Europe,77.0,9.0,Developing
+Macedonia,10600,2100000.0,5047,Europe,75.0,9.7,Developing

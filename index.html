@@ -1,73 +1,127 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <meta charset="UTF-8">
+  <title>Global Data Analysis</title>
+  <!-- Import Vega & Vega-Lite -->
   <script src="https://cdn.jsdelivr.net/npm/vega@5.22.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.5.0"></script>
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
-  
   <!-- CSS file -->
-  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
-
-
+  <link rel="stylesheet" type="text/css" href="styles.css" media="all">
 </head>
 <body>
+
+  <!-- Introduction -->
+  <section class="story-section">
+    <div class="card">
+      <h1>Introduction</h1>
+      <div class="card-content">
+        <div class="card-text">
+          <p><!-- Your introduction textH here --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visualization 1 -->
+  <section class="story-section">
+    <div class="card">
+      <h2>Choropleth: GDP by Country</h2>
+      <div class="card-content">
+        <div id="vis1"></div>
+        <div class="card-text">
+          <p><!-- Brief description or context for Visualization 1 --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Visualization 2 -->
+  <section class="story-section">
+    <div class="card">
+      <h2>Interactive Scatterplot</h2>
+      <div class="card-content">
+        <div id="vis2"></div>
+        <div class="card-text">
+          <p><!-- Brief description or context for Visualization 2 --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story-section">
+    <div class="card">
+      <h2>Donut Charts: Developed vs Developing Countries in a Region</h2>
+      <div class="card-content">
+        <div class="legend">
+          <span style="display: inline-block; background-color: #F1C40F; width:15px; height:15px;"></span> Developed Country
+          <span style="display: inline-block; background-color: #90927d; width:15px; height:15px;"></span> Developing Country
+        </div>
+        <table>
+          <tr>
+            <td><div id="vis6"><h3>Europe</h3></div></td>
+            <td><div id="vis4"><h3>Americas</h3></div></td>
+            <td><div id="vis8"><h3>Western Pacific</h3></div></td>
+          </tr>
+          <tr>
+            <td><div id="vis3"><h3>Africa</h3></div></td>
+            <td><div id="vis7"><h3>South East Asia</h3></div></td>
+            <td><div id="vis5"><h3>Eastern Mediterranean</h3></div></td>
+          </tr>
+        </table>
+        <div class="card-text">
+          <p><!-- Brief description or context for the Donut Charts --></p>
+        </div>
+      </div>
+    </div>
+  </section>
+  This should place the Donut Charts in a table within a card as per your original design. Please include this segment back into your full HTML file, and it should work as expected.
   
-<div id="vis1"></div>
-<div id="vis2"></div>
-<div id="vis3"></div>
-<div id="vis4"></div>
-<div id="vis5"></div>
-<div id="vis6"></div>
-<div id="vis7"></div>
-<div id="vis8"></div>
-<div id="vis9"></div>
+  
+  
+  
+  
+  
 
-<script type="text/javascript">
+  <!-- Additional Visualizations -->
+  <section class="story-section">
+    <div class="card">
+      <h2>Additional Metrics</h2>
+      <div class="card-content">
+        <div id="vis9"></div>
+        <div id="vis10"></div>
+        <div class="card-text">
+          <p><!-- Brief description or context for the additional visualizations --></p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  // var specVis1 = "choropleth_malaria.vg.json";
-  // vegaEmbed('#choropleth_map', specVis1).then(function(result) {
-  //   // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  // }).catch(console.error);
+  <!-- JavaScript for Vega Embed -->
+  <script type="text/javascript">
+    var specVis1 = "choropleth_gdp.vg.json";
+    var specVis2 = "scatterplot_interactive.vg.json";
+    var specVis3 = "donut_Africa.vg.json";
+    var specVis4 = "donut_Americas.vg.json";
+    var specVis5 = "donut_Eastern_Mediterranean.vg.json";
+    var specVis6 = "donut_Europe.vg.json";
+    var specVis7 = "donut_South_East_Asia.vg.json";
+    var specVis8 = "donut_Western_Pacific.vg.json";
+    var specVis9 = "heatmap.vg.json";
+    var specVis10 = "pieChart.vg.json";
 
-
-  // var specVis1 = "choropleth_malaria.vg.json";
-  var specVis1 = "choropleth_gdp.vg.json";
-  var specVis2 = "scatterplot_interactive.vg.json";
-  var specVis3 = "donut_Africa.vg.json";
-  var specVis4 = "donut_Americas.vg.json";
-  var specVis5 = "donut_Eastern_Mediterranean.vg.json";
-  var specVis6 = "donut_Europe.vg.json";
-  var specVis7 = "donut_South_East_Asia.vg.json";
-  var specVis8 = "donut_Western_Pacific.vg.json";
-  var specVis9 = "heatmap.vg.json";
-  vegaEmbed('#vis1', specVis1, { "actions": false });
-  vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis3', specVis3, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis4', specVis4, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis5', specVis5, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis6', specVis6, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis7', specVis7, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis8', specVis8, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  vegaEmbed('#vis9', specVis9, { "actions": false }).then(function (result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-
-</script>
+    vegaEmbed('#vis1', specVis1, { "actions": false });
+    vegaEmbed('#vis2', specVis2, { "actions": false });
+    vegaEmbed('#vis3', specVis3, { "actions": false });
+    vegaEmbed('#vis4', specVis4, { "actions": false });
+    vegaEmbed('#vis5', specVis5, { "actions": false });
+    vegaEmbed('#vis6', specVis6, { "actions": false });
+    vegaEmbed('#vis7', specVis7, { "actions": false });
+    vegaEmbed('#vis8', specVis8, { "actions": false });
+    vegaEmbed('#vis9', specVis9, { "actions": false });
+    vegaEmbed('#vis10', specVis10, { "actions": false });
+  </script>
 
 </body>
 </html>

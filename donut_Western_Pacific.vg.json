@@ -1,15 +1,15 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Donut Chart of Development Status in Western Pacific",
-  "width": 300,
-  "height": 300,
+  "width": 200,
+  "height": 200,
   "autosize": "none",
   
   "signals": [
     {"name": "startAngle", "value": 0},
     {"name": "endAngle", "value": 6.29},
     {"name": "padAngle", "value": 0.04},
-    {"name": "innerRadius", "value": 120},
+    {"name": "innerRadius", "value": 85},
     {"name": "cornerRadius", "value": 5.5},
     {"name": "sort", "value": false}
   ],
@@ -22,6 +22,17 @@
         {"Region": "Developing", "Total_cases": 19}
       ],
       "transform": [
+        {
+          "type": "joinaggregate",
+          "fields": ["Total_cases"],
+          "ops": ["sum"],
+          "as": ["Total"]
+        },
+        {
+          "type": "formula",
+          "expr": "(datum.Total_cases / datum.Total) * 100",
+          "as": "Percentage"
+        },
         {
           "type": "pie",
           "field": "Total_cases",
@@ -68,13 +79,13 @@
       "from": {"data": "table"},
       "encode": {
         "enter": {
-          "text": {"signal": "if(datum['endAngle'] - datum['startAngle'] < 0.3, '', datum['Total_cases'])"},
+          "text": {"signal": "if(datum['endAngle'] - datum['startAngle'] < 0.3, '', format(datum['Percentage'], '.2f') + '%')"},
           "x": {"signal": "width / 2"},
           "y": {"signal": "height / 2"},
           "radius": {"signal": "width / 2 * 0.65"},
           "theta": {"signal": "(datum['startAngle'] + datum['endAngle']) / 2"},
           "fill": {"value": "black"},
-          "fontSize": {"value": 15},
+          "fontSize": {"value": 12},
           "align": {"value": "center"},
           "baseline": {"value": "middle"}
         }
@@ -87,7 +98,7 @@
           "x": {"signal": "width / 2"},
           "y": {"signal": "height / 2"},
           "text": {"value": "Western Pacific"},
-          "fontSize": {"value": 24},
+          "fontSize": {"value": 15},
           "align": {"value": "center"},
           "baseline": {"value": "middle"},
           "fill": {"value": "#a65628"}  

@@ -1,0 +1,79 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "values": [
+        {"Region": "Africa", "Mean Years of Schooling": 6},
+        {"Region": "South-East Asia", "Mean Years of Schooling": 6},
+        {"Region": "Eastern Mediterranean", "Mean Years of Schooling": 7},
+        {"Region": "Western Pacific", "Mean Years of Schooling": 9},
+        {"Region": "Americas", "Mean Years of Schooling": 9},
+        {"Region": "Europe", "Mean Years of Schooling": 11}
+      ]
+    },
+    "width": 520,
+    "height": "container",
+    "layer": [
+      {
+        "mark": {
+          "type": "arc",
+          "innerRadius":20,
+          "stroke": "#fff"
+        }
+      },
+      {
+        "mark": {
+          "type": "text",
+          "radiusOffset": 30,
+          "size": 20,
+          "color": "black"
+        },
+        "encoding": {
+          "text": {
+            "field": "Mean Years of Schooling",
+            "type": "quantitative"
+          }
+        }
+      }
+    ],
+    "encoding": {
+      "theta": {
+        "field": "Mean Years of Schooling",
+        "type": "quantitative",
+        "stack": true,
+        "sort": "descending"
+      },
+      "radius": {
+        "field": "Mean Years of Schooling",
+        "scale": {
+          "type": "sqrt",
+          "zero": true,
+          "rangeMin": 20
+        }
+      },
+      "color": {
+        "field": "Region",
+        "type": "nominal",
+        "legend": {
+          "labelFont": "Roboto",
+          "labelFontSize": 12,
+          "titleFont": "Roboto",
+          "titleFontSize": 13,
+          "title": "Region",
+          "orient": "bottom"
+        }
+      }
+    },
+    "title": {
+      "text": "Mean Years of Schooling by Region",
+      "font": "Roboto",
+      "fontSize": 15
+    },
+    "config": {
+      "style": {
+        "cell": {
+          "stroke": "transparent"
+        }
+      }
+    }
+  }
+  
